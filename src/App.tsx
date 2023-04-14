@@ -2,7 +2,11 @@ import React from 'react';
 import './App.css';
 
 function App() {
-  return <>App</>;
+  return (
+    <>
+      <button style={{ backgroundColor: 'red' }}>Change to blue</button>
+    </>
+  );
 }
 
 export default App;
